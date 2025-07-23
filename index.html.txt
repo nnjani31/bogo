@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>YAY! It's BOGO</h2>
+
+    <!-- 1 Unit Box -->
+    <div class="box" data-box="1">
+      
+      <div class="box-header">
+        <input type="radio" style="bg-color: #FF6B82"></input>
+        <span>1 Unit</span>
+        <span class="discount">10% Off</span>
+        <span class="price">$10.00 USD</span>
+        <span class="original-price">$24.00 USD</span> 
+        <br>
+        
+       
+      </div>
+      <div> 
+      <span style="margin:10px; font-size:10px;">Standard Price</span>
+        
+      </div>
+       <div class="box-content hidden">
+      <div class="item">
+          <table class="table-content">
+            <tr>
+              <td><label></label></td>
+              <td>Size</td>
+              <td>Color</td>
+            </tr>
+             <tr>
+               <td><label>#1</label></td>
+               <td>   
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <td>
+             <select>
+            <option>Black</option>
+            <option>White</option>
+            <option>Blue</option>
+          </select>
+          </td>
+       </td>
+    
+           </tr>
+        
+             <tr>
+               <td><label>#2</label></td>
+               <td>   <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <td>
+             <select>
+            <option>Black</option>
+            <option>White</option>
+            <option>Blue</option>
+          </select>
+          </td>
+       </td>
+               
+             </tr>
+         
+          </table>
+         
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 Unit Box -->
+    <div class="box" data-box="2">
+      <div class="box-header most-popular">
+        <input type="radio"  class="radio"  id="radio2"></input>
+        <span>2 Unit</span>
+        <span class="discount">20% Off</span>
+        <span class="price">$18.00 USD</span>
+        <span class="original-price">$30.00 USD</span> 
+        <span class="badge">Most Popular</span>
+      </div>
+      <div class="box-content hidden">
+        <div class="item">
+          <table class="table-content">
+            <tr>
+              <td><label></label></td>
+              <td>Size</td>
+              <td>Color</td>
+            </tr>
+             <tr>
+               <td><label>#1</label></td>
+               <td>   
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <td>
+             <select>
+            <option>Black</option>
+            <option>White</option>
+            <option>Blue</option>
+          </select>
+          </td>
+       </td>
+    
+             </tr>
+        
+             <tr>
+               <td><label>#2</label></td>
+               <td>   <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <td>
+             <select>
+            <option>Black</option>
+            <option>White</option>
+            <option>Blue</option>
+          </select>
+          </td>
+       </td>
+               
+             </tr>
+         
+          </table>
+         
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 Unit Box -->
+    <div class="box" data-box="3">
+      <div class="box-header">
+        <input type="radio"  class="radio"></input>
+        <span>3 Unit</span>
+        <span class="discount">30% Off</span>
+        <span class="price">$24.00 USD</span>
+        <span class="original-price">$34.00 USD</span>
+      </div>
+      <div class="box-content hidden">
+    
+        <div class="item">
+          <table class="table-content">
+            <tr>
+              <td><label></label></td>
+              <td>Size</td>
+              <td>Color</td>
+            </tr>
+             <tr>
+               <td><label>#1</label></td>
+               <td>   
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <td>
+             <select>
+            <option>Black</option>
+            <option>White</option>
+            <option>Blue</option>
+          </select>
+          </td>
+       </td>
+    
+             </tr>
+        
+             <tr>
+               <td><label>#2</label></td>
+               <td>   <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <td>
+             <select>
+            <option>Black</option>
+            <option>White</option>
+            <option>Blue</option>
+          </select>
+          </td>
+       </td>
+               
+             </tr>
+         
+          </table>
+         
+        </div>
+      </div>
+    </div>
+    
+    <!--The Total and Delivery section-->
+    <!-- Delivery and Total -->
+    <div class="summary">
+      <div class="delivery">Free Delivery</div>
+      <div class="total">Total: <strong>$18.00 USD</strong></div>
+    </div>
+    <br>
+    <!-- Add to Cart Button -->
+    <button class="add-cart">+ Add to Cart</button>
+  </div>
+
+  <script src="script.js">
+</script>
+</body>
+</html>
